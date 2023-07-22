@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH COUNTER CSP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="heading">
+            <h1>CASH COUNTER<br>
+               BANKING CSP<br>
+                E-ADARSH GROUP<br>
+            </h1>
+        </div>
+        <hr>
+        <div class="formCOntainer">
+            <div class="form">
+                <div class="fieldContainer">
+                    <div class="field-group">
+                        <label>2000</label>
+                        <input type="number" id="hundred" min="0">
+                    </div>
+                <div class="field-group">
+                    <label>1000</label>
+                    <input type="number" id="fifty"  min="0">
+                </div>
+                <div class="field-group">
+                    <label>500</label>
+                    <input type="number" id="twenty"  min="0">
+                </div>
+                <div class="field-group">
+                    <label>100</label>
+                    <input type="number" id="ten"  min="0">
+                </div>
+                <div class="field-group">
+                    <label>50</label>
+                    <input type="number" id="five"  min="0">
+                </div>
+
+                <div class="field-group">
+                    <label>20</label>
+                    <input type="number" id="one" min="0">
+                </div>
+                <div class="field-group">
+                    <label>10</label>
+                    <input type="number" id="twentyfc" min="0">
+                </div>
+                <div class="field-group">
+                    <label>5</label>
+                    <input type="number" id="tenc"  min="0">
+                </div>
+                <div class="field-group">
+                    <label>1</label>
+                    <input type="number" id="fivec"  min="0">
+                </div>
+                <div class="field-group">
+                    <label>2</label>
+                    <input type="number" id="onec"  min="0">
+                </div>
+                </div>
+                <div class="btnContainer">
+                    <button type="button" id="calbtn" class="blue">Calculate</button>
+                    <button type="button" id="clebtn" class="green">clear</button>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="result-container">
+            <span>Total Money:</span><span style="margin-left: 10px;" id="result"></span>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

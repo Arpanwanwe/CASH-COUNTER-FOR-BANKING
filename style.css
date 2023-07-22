@@ -1,0 +1,103 @@
+.wrapper{
+
+}
+
+.wrapper .heading{
+    text-align: center;
+}
+.wrapper .formCOntainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto 0;
+    border-radius: 2rem;
+    box-shadow: 0 1px 20px black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px 25px;
+    background-color: #efefef;
+
+}
+.formCOntainer .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.form .fieldContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    row-gap: 10px;
+}
+.form .btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 7px;
+}
+.btnContainer button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    
+}
+.blue{
+    background-color: #3084e4ed;
+    color:white ;
+    font-weight: 900;
+    border: 1px solid #3084e4;
+}
+.green{
+    background-color: #15a821ed;
+    border: 1px solid #15a821;
+    color:white ;
+    font-weight: 900;
+}
+.fieldContainer .field-group{
+    width: 200px;
+}
+.field-group label{
+    display: block;
+}
+.field-group input[type="number"]{
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    outline: 0;
+    overflow: hidden;
+    font-size: 16px;
+    color: brown;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+.wrapper .result-container{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    width: 80%;
+    margin: 20px auto 0;
+    border-radius: 2rem;
+    box-shadow: 0 1px 20px black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px 25px;
+    background-color: #efefef;
+
+}
+.result-container span{
+    font-weight: 900;
+    font-size: 20px;
+}
